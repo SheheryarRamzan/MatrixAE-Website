@@ -17,6 +17,55 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
+/* General Styles */
+.hero .font-poppins {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem; /* Adjust size as needed */
+  color: #000; /* Change color if necessary */
+}
+
+.hero .container {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px; /* Adjust horizontal padding */
+}
+
+.hero .hero-paragraph {
+  font-size: 1.25rem; /* Adjust size as needed */
+  color: #333; /* Adjust color if necessary */
+  max-width: 80%; /* Ensure the paragraph doesn't exceed the heading width */
+  margin: 20px auto; /* Space between heading and paragraph */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero .font-poppins {
+    font-size: 2.5rem; /* Smaller font size for tablets and phones */
+  }
+
+  .hero .hero-paragraph {
+    font-size: 1rem; /* Smaller font size for better readability on smaller screens */
+    max-width: 90%; /* Increase max-width for smaller screens */
+    margin: 15px auto; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .font-poppins {
+    font-size: 1.75rem; /* Even smaller font size for very small screens */
+  }
+
+  .hero .hero-paragraph {
+    font-size: 0.875rem; /* Smaller font size for very small screens */
+    max-width: 95%; /* Further increase max-width for very small screens */
+    margin: 10px auto; /* Adjust margin for very small screens */
+  }
+}
+
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
