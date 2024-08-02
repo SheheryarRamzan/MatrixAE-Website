@@ -16,15 +16,15 @@ var mouse = {
 };
 
 window.addEventListener("mousemove", function (event) {
-  mouse.x = event.x;
-  mouse.y = event.y;
+  mouse.x = event.pageX;
+  mouse.y = event.pageY;
   drawCircles();
 });
 
 window.addEventListener("touchmove", function (event) {
   let touch = event.touches[0];
-  mouse.x = touch.clientX;
-  mouse.y = touch.clientY;
+  mouse.x = touch.pageX;
+  mouse.y = touch.pageY;
   drawCircles();
 });
 
@@ -89,7 +89,7 @@ function drawCircles() {
     let rgb = colorArray[Math.floor(Math.random() * colorArray.length)];
     let life = 100;
     circleArray.push(
-      new Circle(mouse.x, mouse.y, radius, vx, vy, rgb, 1, spawnFrame, life)
+      new Circle(mouse.x , mouse.y - document.getElementById("header").offsetHeight, radius, vx, vy, rgb, 1, spawnFrame, life)
     );
   }
 }

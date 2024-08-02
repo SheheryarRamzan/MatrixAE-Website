@@ -205,4 +205,11 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+
+  document.querySelectorAll('.portfolio-content').forEach(project => {
+    project.addEventListener('click', function() {
+        const projectId = this.getAttribute('data-project-id');
+        window.location.href = `portfolio-details.html?id=${projectId}`;
+    });
+});
 })();
