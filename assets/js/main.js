@@ -206,10 +206,14 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 
-  document.querySelectorAll('.portfolio-content').forEach(project => {
-    project.addEventListener('click', function() {
-        const projectId = this.getAttribute('data-project-id');
-        window.location.href = `portfolio-details.html?id=${projectId}`;
+  // on the btn click of more-project-btn all hidden elements in porfolio projects will become visible the div dont have names
+
+  document.querySelector('.more-project-btn').addEventListener('click', function() {
+    document.querySelectorAll('.post-item').forEach(function(hiddenElement) {
+      hiddenElement.removeAttribute('hidden');  
     });
-});
+    this.style.display = 'none';
+  }
+  );
+
 })();

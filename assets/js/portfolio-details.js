@@ -54,11 +54,11 @@ const projects = [
         "Description": "This project focuses on predicting the supply and demand for ride-hailing services using Uber's dataset. It helps optimize fleet management and improve service efficiency by accurately forecasting demand patterns.",
         "Category": "Transportation/AI"
     },
-    {
-        "Title": "Crack Pong",
-        "Description": "Crack Pong is an interactive game that utilizes computer vision techniques. Players watch a live-rendered video of an air hockey game and must predict where the puck will pass to place a virtual crack, earning points for accurate predictions.",
-        "Category": "Gaming/Computer Vision"
-    }
+    // {
+    //     "Title": "Crack Pong",
+    //     "Description": "Crack Pong is an interactive game that utilizes computer vision techniques. Players watch a live-rendered video of an air hockey game and must predict where the puck will pass to place a virtual crack, earning points for accurate predictions.",
+    //     "Category": "Gaming/Computer Vision"
+    // }
 ];
 
 

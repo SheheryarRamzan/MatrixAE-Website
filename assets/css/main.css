@@ -2872,3 +2872,25 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+ /* Add your existing button styles here */
+ .button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Centering styles */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
