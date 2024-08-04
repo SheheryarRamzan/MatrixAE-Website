@@ -29,11 +29,12 @@
 .hero .container {
   height: 100vh;
   /* Full screen height */
+  
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 15px;
+  padding: 0 3%;
   /* Adjust horizontal padding */
 }
 
