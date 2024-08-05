@@ -20,7 +20,9 @@
 /* General Styles */
 .hero .font-poppins {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
+  /*increease line spacing */
+  line-height: 1.0;
   /* Adjust size as needed */
   color: #000;
   /* Change color if necessary */
