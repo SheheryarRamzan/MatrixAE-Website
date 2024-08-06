@@ -46,7 +46,8 @@
 
   });
 
-  /**
+  /*
+  *
    * Toggle mobile nav dropdowns
    */
   document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
@@ -87,7 +88,7 @@
       duration: 600,
       easing: 'ease-in-out',
       once: true,
-      mirror: false
+      mirror: true
     });
   }
   window.addEventListener('load', aosInit);
