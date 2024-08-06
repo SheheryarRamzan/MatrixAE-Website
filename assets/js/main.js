@@ -208,18 +208,4 @@
 
   // on the btn click of more-project-btn all hidden elements in porfolio projects will become visible the div dont have names
 
-  document.querySelector('.more-project-btn').addEventListener('click', function() {
-      let hiddenElements = document.querySelectorAll('.post-item[hidden]');
-      let count = 0;
-      hiddenElements.forEach(function(hiddenElement) {
-          if (count < 3) {
-              hiddenElement.removeAttribute('hidden');
-              count++;
-          }
-      });
-      if (document.querySelectorAll('.post-item[hidden]').length === 0) {
-          this.style.display = 'none';
-      }
-  });
-
 })();

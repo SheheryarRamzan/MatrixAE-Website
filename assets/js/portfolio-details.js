@@ -73,6 +73,9 @@ const projects = [
 
 
 document.querySelector('.page-title h1').innerHTML = projects[id].Title;
+document.querySelector('.page-title p').innerHTML = projects[id].Tagline
+
+
 document.querySelector('.portfolio-description p').innerHTML = projects[id].Description;
 
 document.querySelector('.portfolio-info ul li:first-child').innerHTML  = `<strong>Category</strong>: ${projects[id].Category}`;
