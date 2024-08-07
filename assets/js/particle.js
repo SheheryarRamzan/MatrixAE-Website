@@ -18,8 +18,12 @@ var mouse = {
 window.addEventListener("mousemove", function (event) {
   mouse.x = event.pageX;
   mouse.y = event.pageY;
+  // if not on 
   drawCircles();
 });
+
+
+
 
 window.addEventListener("touchmove", function (event) {
   let touch = event.touches[0];

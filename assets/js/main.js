@@ -207,6 +207,16 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 
-  // on the btn click of more-project-btn all hidden elements in porfolio projects will become visible the div dont have names
+ 
+  // remove href from hash links and take to top of the page
+  window.addEventListener('load', function() {
+    //remove # and onwards from url
+    let url = window.location.href;
+    let urlSplit = url.split('#')[0];
+    window.history.replaceState({}, document.title, urlSplit);
+    //take to top of the page
+    window.scrollTo(0, 0);
+  });
 
+ 
 })();
