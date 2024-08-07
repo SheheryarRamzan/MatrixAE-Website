@@ -44,35 +44,35 @@ const projects = [
         "Description": "This project aims to classify Parkinson's disease by analyzing voice data. It provides a non-invasive method for early detection and monitoring of the disease, aiding in timely medical intervention and management.",
         "Category": "Healthcare/AI",
         "Tagline": "Early detection of Parkinson's through voice analysis.",
-        "Display": "./assets/video/parkinsons-disease.png"
+        "Display": ["./assets/img/portfolio/parkinson.png"]
     },
     {
         "Title": "Heart Disease Classification",
         "Description": "The Heart Disease Classification project uses patient data to assess the risk of heart disease. It assists healthcare providers in identifying high-risk individuals, facilitating preventive care and targeted treatments.",
         "Category": "Healthcare/AI",
         "Tagline": "Predicting heart health for better patient care.",
-        "Display": "./assets/video/heart-disease.png"
+        "Display": ["./assets/img/portfolio/heart.png"]
     },
     {
         "Title": "Anomaly Detection In Credit Card Fraud Dataset",
         "Description": "This solution addresses the problem of detecting fraudulent transactions in credit card datasets. It improves financial security by identifying anomalies and potential fraud, thereby protecting users and institutions.",
         "Category": "Finance/AI",
         "Tagline": "Securing your transactions with fraud detection.",
-        "Display": "./assets/video/credit-card-fraud.png"
-    },
+        "Display": ["./assets/img/portfolio/anamoly.png"]
+        },
     {
         "Title": "Incremental Face Recognition",
         "Description": "Incremental Face Recognition is a dynamic system that continually learns to recognize new faces. It ensures high accuracy and up-to-date recognition capabilities, making it suitable for environments where personnel frequently change.",
         "Category": "Security/AI",
         "Tagline": "Recognizing faces with adaptive accuracy.",
-        "Display": "./assets/video/face-recognition.png"
+        "Display":  ["./assets/img/portfolio/face-recognition.png"]
     },
     {
         "Title": "Supply Demand Forecasting of Uber Dataset",
         "Description": "This project focuses on predicting the supply and demand for ride-hailing services using Uber's dataset. It helps optimize fleet management and improve service efficiency by accurately forecasting demand patterns.",
         "Category": "Transportation/AI",
         "Tagline": "Optimizing ride-hailing services through accurate forecasting.",
-        "Display": "./assets/video/uber-forecasting.png"
+        "Display": ["./assets/img/portfolio/uber.png"] 
     },
     // {
     //     "Title": "Crack Pong",

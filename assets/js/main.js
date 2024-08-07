@@ -209,14 +209,17 @@
 
  
   // remove href from hash links and take to top of the page
-  window.addEventListener('load', function() {
-    //remove # and onwards from url
-    let url = window.location.href;
-    let urlSplit = url.split('#')[0];
-    window.history.replaceState({}, document.title, urlSplit);
-    //take to top of the page
-    window.scrollTo(0, 0);
-  });
-
+//   window.addEventListener('load', function() {
+//     let url = window.location.href;
+//     let urlPath = window.location.pathname;
+    
+//     // Check if the current page is the index page
+//     if (urlPath === '/' || urlPath.endsWith('index.html')) {
+//         let urlSplit = url.split('#')[0];
+//         window.history.replaceState({}, document.title, urlSplit);
+//         // Take to top of the page
+//         window.scrollTo(0, 0);
+//     }
+// });
  
 })();
