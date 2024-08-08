@@ -70,12 +70,12 @@
 
 @media (max-width: 576px) {
   .hero .font-poppins {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     /* Even smaller font size for very small screens */
   }
 
   .hero .hero-paragraph {
-    font-size: 0.875rem;
+    font-size: 1rem;
     /* Smaller font size for very small screens */
     max-width: 95%;
     /* Further increase max-width for very small screens */
@@ -2245,10 +2245,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
 /*--------------------------------------------------------------
 # Blog Posts Section
 --------------------------------------------------------------*/
